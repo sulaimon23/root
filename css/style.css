@@ -1,0 +1,596 @@
+@import https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css;
+
+* {
+    box-sizing: border-box !important;
+}
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #F9F7F1;
+    overflow-x: hidden !important;
+}
+
+
+.logo {
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.logo img {
+    max-height: 53.61px;
+    /* margin-top: -18px; */
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.logo-welcome {
+    font-size: 21px;
+    color: #0E5849;
+    line-height: 30px;
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 0px;
+    margin-top: 10px;
+}
+
+.welcome {
+    color: #A1AEB7;
+    font-size: 21px;
+    font-weight: 500;
+}
+.primary-section {
+    padding-top: 50px;
+}
+
+.coming-soon {
+    color: #E8BB47;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+.header h1 {
+    color: #054639;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+
+
+.text-info-1 {
+    font-size: 16px;
+    line-height: 26px;
+    color: #054639;
+    font-weight: lighter;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+
+p.form-mail-text{   
+    margin-top: 20px;
+    margin-bottom: 7px;
+    color: #054639;
+    /* color: #A63343; */
+
+}
+
+
+.input-group {
+    max-width: 412px;
+}
+
+input.form-input::-webkit-input-placeholder {
+    font-family: Ubuntu, FontAwesome;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: normal;
+    overflow: visible;
+    vertical-align: top;
+    display: inline !important;
+    padding-left: 5px;
+    padding-top: 2px;
+    color: #C2D1D9;
+}
+
+.bg-orange {
+    background-color: #E9623B;
+    /* background-color: #e8bb47; */
+    color: white;
+    font-size: 12px;
+}
+
+.hero-phone-image img {
+    max-height: 546.74px;
+}
+
+.video-div {
+    border: 25px solid #E9623B;
+    /* border-radius: 13.3px !important; */
+}
+
+.app-screen {
+    margin-top: 118px;
+}
+
+.app-screen img {
+    width: 165px;
+}
+
+.call-to-action-2 {
+    margin-top: 90px;
+}
+
+.form-2 {
+    
+    padding-bottom: 50px;
+}
+
+.app-description {
+    background-color: #264236;
+    box-sizing: border-box;
+}
+
+
+.app-description-h3-container {
+    max-width: 648px;
+}
+
+.app-description-container {
+    padding-bottom: 100px;
+}
+
+.app-description h3 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 37px;
+    color: #fff;
+    padding-top: 55px;
+    margin-bottom: 55px;
+}
+
+img.app-description-img {
+    max-width: 310px;
+    height: auto;
+    margin: auto;
+}
+
+.app-description-text-1 {
+    padding-top: 80px;
+    padding-left: 75px;
+    box-sizing: border-box;
+}
+
+.app-description-text-2 {
+    box-sizing: border-box;
+    padding-top: 80px;
+    padding-right: 75px;
+}
+
+.app-description p {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.app-description-container hr {
+    height: 2px;
+    max-width: 130px;
+    color: cornsilk;
+    background-color: #fff;
+    margin-left: 0;
+}
+
+section.footer {
+    background-color: #F9F7F1;
+}
+
+section.footer img {
+    width: 85%;
+}
+
+.footer-col div.col-lg-3 {
+    padding: 0;
+}
+
+.footer-text-container {
+    max-width: 557px;
+}
+
+.footer-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 64px;
+    text-align: center;
+    color: #505D68;
+}
+
+.footer-text {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #505D68;
+}
+
+.form-mail-text {
+    font-size: 18px;
+}
+
+
+/* ===== MODAL ===== */
+
+.card {
+    position: relative;
+    display: flex;
+    max-width: 600px;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #F9F7F1;
+    background-clip: border-box;
+    border: 1px solid #d2d2dc;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgb(249, 249, 250);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(212, 182, 212, 1);
+    box-shadow: 0px 0px 5px 0px rgb(161, 163, 164)
+}
+
+.card .card-body {
+    padding: 1rem 1rem
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1.25rem
+}
+
+.card-body img {
+    max-height: 120px !important;
+}
+
+#errorModal .card {
+    border: 5px solid #E9623B;
+}
+
+p {
+    font-size: 14px
+}
+
+h4 {
+    margin-top: 18px
+}
+
+.cross {
+    padding: 10px;
+    color: #E9623B;
+    cursor: pointer
+}
+
+.continue:focus {
+    outline: none
+}
+
+.continue {
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-size: 13px;
+    padding: 8px 19px;
+    cursor: pointer;
+    color: #fff;
+    background-color: #E9623B
+}
+
+.continue:hover {
+    background-color: #E9623B !important
+}
+
+#errorModal.modal {
+    background-color: hsla(168, 87%, 15%, 0.797);
+}
+
+#myModal {
+    background-color: hsla(168, 87%, 15%, 0.797);
+}
+
+button.bg-orange:hover {
+    background-color: #ff6c43;
+}
+
+
+section.footer {
+    max-height: 1000px !important;
+}
+
+
+
+
+/* Media Query for Large Screen */
+@media screen and (max-width: 991px) {
+    .primary-section h1 {
+        font-size: 45px !important;
+    }
+
+    img.app-description-img {
+        width: 220px;
+        height: auto;
+        margin: auto;
+    }
+
+    .app-description p {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .app-description-text-1 {
+        padding-top: 50px;
+        padding-left: 0px;
+    }
+    
+    .app-description-text-2 {
+        padding-top: 50px;
+        padding-right: 0px;
+    }
+
+    section.footer img {
+        width: 65%;
+    }
+    
+}
+
+/* Media Query for Medium Screen */
+@media screen and (max-width: 767px) {
+
+    .primary-section {
+        padding-top: 20px;
+    }
+
+
+    .coming-soon {
+        font-size: 30px;
+        margin-bottom: 10px
+    }
+    .header h1 {
+        margin-top: ;
+        font-size: 44.53px;
+    }
+
+    .text-info-1 {
+        margin: 10px 0 10px 0 !important;
+    }
+
+    .hero-phone-image img {
+        height: 384.4px;
+        margin-top: 30px;
+        margin-bottom: 30px; 
+    }
+
+    .call-to-action-2 {
+        margin-top: 35px;
+    }
+
+    .app-description-h3-container {
+        max-width: 400px;
+    }
+
+    .app-description h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 37px;
+        color: #fff;
+        padding-top: 55px;
+        margin-bottom: 55px;
+    }
+
+    img.app-description-img {
+        width: 160px;
+        height: auto;
+        margin: auto;
+    }
+
+    .app-description p {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .app-description-text-1 {
+        padding-top: 30px;
+        padding-left: 0px;
+    }
+    
+    .app-description-text-2 {
+        padding-top: 30px;
+        padding-right: 0px;
+    }
+    
+}
+
+/* Media Query for Small Screen */
+@media screen and (max-width: 600px) {
+    .hero-phone-image img {
+        height: 384.4px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .call-to-action-2 {
+        margin-top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 540px) {
+    .app-description-h3-container {
+        max-width: 350px;
+    }
+
+    .app-description h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 24px;
+        color: #fff;
+        padding-top: 55px;
+        margin-bottom: 20px;
+    }
+
+    img.app-description-img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .app-description p {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 12px;
+    }
+
+    .app-description-text-1 {
+        padding-top: 10px;
+        padding-left: 0px;
+    }
+    
+    .app-description-text-2 {
+        padding-top: 10px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 445px) {
+    .app-description p {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .app-description p {
+        color: #fff;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 9px;
+        line-height: 11px;
+    }
+}
+
+
+
+
+
+
+
+
+/* Animations */
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+img.vert-move {
+    -webkit-animation: mover 1s infinite  alternate;
+    animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-10px); }
+}
+
+@media screen and (max-width: 1200px) {
+    img.app-description-img {
+        max-width: 280px;
+        height: auto;
+        margin: auto;
+    }
+}
+
+
+
+
+.wrapper {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.youtube {
+	background-color: #000;
+	margin-bottom: 30px;
+	position: relative;
+	padding-top: 56.25%;
+	overflow: hidden;
+	cursor: pointer;
+}
+.youtube img {
+	width: 100%;
+	top: -16.82%;
+	left: 0;
+	opacity: 0.7;
+}
+.youtube .play-button {
+	width: 90px;
+	height: 60px;
+	background-color: #333;
+	box-shadow: 0 0 30px rgba( 0,0,0,0.6 );
+	z-index: 1;
+	opacity: 0.8;
+	border-radius: 6px;
+}
+.youtube .play-button:before {
+	content: "";
+	border-style: solid;
+	border-width: 15px 0 15px 26.0px;
+	border-color: transparent transparent transparent #fff;
+}
+.youtube img,
+.youtube .play-button {
+	cursor: pointer;
+}
+.youtube img,
+.youtube iframe,
+.youtube .play-button,
+.youtube .play-button:before {
+	position: absolute;
+}
+.youtube .play-button,
+.youtube .play-button:before {
+	top: 50%;
+	left: 50%;
+	transform: translate3d( -50%, -50%, 0 );
+}
+.youtube iframe {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+
+
+
+div.swiper-button-next::after, div.swiper-button-prev::after {
+    color: #0e5849 !important;
+    
+}
